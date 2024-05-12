@@ -1,0 +1,57 @@
+body {
+    background-color: bisque;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    background-color: white;
+}
+
+th {
+    background-color: aquamarine;
+    width: 25%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vh;
+    border: 1px solid black;
+    padding: 10vh;
+    background-color: aliceblue;
+}
+
+form label {
+    font-weight: 900;
+    margin-left: 5vw;
+    margin-right: 1vh;
+}
+
+form button {
+    margin-left: 2vw;
+    background-color: aquamarine;
+    font-weight: 900;
+    width: 8vw;
+    border-radius: 5vw;
+    margin-right: 5vw;
+}
+
+button {
+    margin-left: 2vw;
+    background-color: orangered;
+    font-weight: 900;
+    width: 8vw;
+    border-radius: 5vw;
+
+}
