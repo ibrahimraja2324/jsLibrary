@@ -41,7 +41,7 @@ function displayLibrary() {
     row.appendChild(aNameCell)
 
     const rStatusCell = document.createElement('td')
-    rStatusCell.textContent = item.readStatus;
+    rStatusCell.textContent = item.readStatus ? "Read" : "Not Read";
     row.appendChild(rStatusCell)
 
     const deleteCell = document.createElement('td')
